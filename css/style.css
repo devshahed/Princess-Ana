@@ -1,21 +1,30 @@
+@font-face {
+  font-family:"Handwriting";
+  src: url("../fonts/LucidaHandwritingStdBold.TTF") format("truetype");
+}
 :root{
     --heart1: "M45.5 6.79156C33.5638 -4.50345 0 -1.20611 0 12.9472C0 22.6928 21.1234 32.658 45.5 46C69.8804 32.658 91 22.6928 91 12.9472C91 -1.2542 57.349 -4.41981 45.5 6.79156Z";
+    --heart2: "M24.5 5.16749C18.0728 -3.42653 0 -0.91769 0 9.85109C0 17.2663 11.3741 24.8485 24.5 35C37.6279 24.8485 49 17.2663 49 9.85109C49 -0.95428 30.8802 -3.3629 24.5 5.16749Z";
     --frame: "M137 38.6824C101.06 -25.6501 0 -6.86957 0 73.7425C0 129.25 63.6023 186.009 137 262C210.409 186.009 274 129.25 274 73.7425C274 -7.14347 172.677 -25.1737 137 38.6824Z";
 }
 body{
-    background: rgb(107, 6, 6);
+    background: #470707;
+}
+h1, h6{
+    color: #7d0d0c;
+    font-family:"Handwriting";
 }
 #backBox{
     height: 200px;
     border-radius: 20px;
     justify-content: space-between;
     padding: 0 45px;
-    background: rgb(160, 7, 7);
+    background: #7d0d0c;
 }
 .innerBox{
     width: 45%;
     height: 270px;
-    background: rgb(160, 7, 7);
+    background: #7d0d0c;
 }
 .middleBox{
     width: 10%;
@@ -24,12 +33,30 @@ body{
 .heart1{    
     width: 92px;
     height: 100px;
-    background: rgb(146, 9, 9);
+    background: #7d0d0c;
     transform: translate(-10%);
     clip-path: path(var(--heart1));
 }
+.heartSmall{    
+    width: 92px;
+    height: 100px;
+    background: #7d0d0c;
+    clip-path: path(var(--heart2));
+}
 .frame{
     clip-path: path(var(--frame));
+}
+#leftFrame{
+    background: url('../img/bg1.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#rightFrame{
+    background: url('../img/bg2.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .frame img{
     width: 287px;
