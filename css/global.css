@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.h-100vh{
+    height: 100vh;
+}
+.z-index-1{
+    z-index: 1;
+}
+.h-60vh{
+    height: 60vh;
+}
+.outline-none{
+    outline: none;
+}
