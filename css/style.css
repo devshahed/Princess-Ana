@@ -9,6 +9,8 @@
 }
 body{
     background: #470707;
+    height: 100vh;
+    overflow: hidden;
 }
 h1, h6{
     color: #7d0d0c;
@@ -60,4 +62,11 @@ h1, h6{
 }
 .frame img{
     width: 287px;
+}
+
+#secondBox{
+    height: 100vh;
+    background: #7d0d0c;
+    width: 80%;
+    margin-top: 100px;
 }
