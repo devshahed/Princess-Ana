@@ -16,6 +16,10 @@ header{
 header nav ul li a{
     font-size: 1.1rem;
     font-weight: 600;
+    transition: 0.2s;
+}
+header nav ul li a:hover{
+    color: rgb(255, 96, 96)!important;
 }
 
 /****  Glass  ******/
