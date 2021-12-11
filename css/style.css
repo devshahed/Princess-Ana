@@ -30,3 +30,11 @@ header nav ul li a{
 #home .card{
     background: rgba( 255, 255, 255, 0.1);
 }
+.anime-slider .items img{
+    width: 100px;
+    height: 100%;
+    transition: all 0.4s;
+}
+.items.slick-center img{
+    transform: scale(1.5);
+}
