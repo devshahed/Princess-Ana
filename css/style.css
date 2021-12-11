@@ -10,7 +10,23 @@
 body{
     background-image: url('../img/Bg.png');
 }
+header{
+    z-index: 999;
+}
 header nav ul li a{
     font-size: 1.1rem;
-    font-family: 'Lucinda';
+    font-weight: 600;
+}
+
+/****  Glass  ******/
+
+#mainGlass{
+    backdrop-filter: blur( 3.5px);
+    -webkit-backdrop-filter: blur( 3.5px);
+}
+
+/****  Home Part ******/
+
+#home .card{
+    background: rgba( 255, 255, 255, 0.1);
 }

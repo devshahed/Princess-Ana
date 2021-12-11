@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/slick.css">
+    <link rel="stylesheet" href="/css/slick-theme.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/global.css">
-    <title></title>
+    <title>Just a Dream</title>
     <!-- 
         Designed by Shahedul Islam
         Fiverr: dev_shahed
@@ -15,24 +17,38 @@
 
      -->
 </head>
-<body class="bg-no-repeat bg-cover bg-fixed bg-center">
-    <header class="glass rounded-0">
+<body class="bg-no-repeat bg-cover bg-fixed bg-center position-relative">
+    <header class="rounded-0 position-absolute top-0 right-0 w-100 glass rounded-0">
         <nav class="container">
             <ul class="list-unstyled d-flex justify-content-end align-items-center m-0 py-3">
-                <li class="mx-4"><a class="text-decoration-none text-white p-1" href="#home">Home</a></li>
-                <li class="mx-4"><a class="text-decoration-none text-white p-1" href="#home">About</a></li>
-                <li class="mx-4"><a class="text-decoration-none text-white p-1" href="#home">Fan Listing</a></li>
+                <li class="mx-4"><a class="popins text-decoration-none text-white p-1" href="#home">Home</a></li>
+                <li class="mx-4"><a class="popins text-decoration-none text-white p-1" href="#home">Eternal Sonata</a></li>
+                <li class="mx-4"><a class="popins text-decoration-none text-white p-1" href="#home">Fan Listing</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <section id="home">
-            
+    <main id="mainGlass" class="glass">
+        <section id="home" class="h-100vh d-flex justify-content-center align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-9 d-flex flex-column justify-content-center align-items-center">
+                        <h1 class="lucinda display-2 text-white">Just a Dream</h1>
+                        <h5 class="lucinda text-white">The Eternal Sonatas Fan listing</h5>
+                    </div>
+                    <div class="col-3">
+                        <div class="card glass">
+                            <img class="card-img-top" src="img/ES2.png" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Naruto</h5>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-
-    <footer></footer>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/slick.min.js"></script>
 </body>
 </html>

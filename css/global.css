@@ -3,6 +3,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/**********  Font Classes  **********/
+
+.lucinda{
+    font-family: 'Lucinda';
+}
+.popins{
+    font-family: 'Poppins', sans-serif;
+}
+/****************************************/
+
 .h-100vh{
     height: 100vh;
 }
