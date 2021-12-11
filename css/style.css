@@ -31,7 +31,7 @@ header nav ul li a{
     background: rgba( 255, 255, 255, 0.1);
 }
 .anime-slider .items img{
-    width: 100px;
+    width: 200px;
     height: 100%;
     transition: all 0.4s;
 }
